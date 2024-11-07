@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Últimas Noticias del Fútbol</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .news-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .news-item img {
+            max-width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .news-item .content {
+            padding: 20px;
+        }
+
+        .news-item h2 {
+            color: #0073e6;
+        }
+
+        .news-item p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .news-item .date {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Últimas Noticias del Fútbol</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Estadísticas</a>
+        <a href="#">Champions League</a>
+        <a href="#">Mercado de Fichajes</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Noticia 1 -->
+        <div class="news-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Lionel_Messi_2021.jpg" alt="Messi">
+            <div class="content">
+                <h2>Lionel Messi gana su 8º Balón de Oro</h2>
+                <p>El astro argentino ha sido galardonado por octava vez con el Balón de Oro, un logro sin precedentes en la historia
+                    del fútbol. Messi sigue rompiendo récords y mostrando su calidad en el PSG, dejando claro que es uno de los
+                    mejores jugadores de todos los tiempos.</p>
+                <p class="date">Publicado el 30 de Octubre de 2024</p>
+            </div>
+        </div>
+
+        <!-- Noticia 2 -->
+        <div class="news-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/UEFA_Champions_League_Logo.png" alt="Champions League">
+            <div class="content">
+                <h2>La Champions League vuelve a emocionar</h2>
+                <p>La fase de grupos de la UEFA Champions League está en pleno auge. Equipos como el Real Madrid, el Manchester
+                    City y el Bayern de Múnich están demostrando una vez más su poderío en Europa. ¿Quién se llevará el trofeo
+                    esta temporada?</p>
+                <p class="date">Publicado el 28 de Octubre de 2024</p>
+            </div>
+        </div>
+
+        <!-- Noticia 3 -->
+        <div class="news-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo">
+            <div class="content">
+                <h2>Cristiano Ronaldo deja el fútbol europeo</h2>
+                <p>El famoso delantero portugués ha decidido poner fin a su carrera en Europa y emprender una nueva aventura en
+                    el fútbol de Oriente Medio. El mundo del fútbol está sorprendido por su decisión, pero Ronaldo ha dejado claro
+                    que sigue siendo un jugador de clase mundial.</p>
+                <p class="date">Publicado el 25 de Octubre de 2024</p>
+            </div>
+        </div>
+
+        <!-- Noticia 4 -->
+        <div class="news-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Diego_Maradona_1986.jpg" alt="Diego Maradona">
+            <div class="content">
+                <h2>Recordando a Diego Maradona</h2>
+                <p>Hoy se conmemora el aniversario del fallecimiento de Diego Maradona, uno de los futbolistas más grandes de
+                    la historia. El "10" sigue siendo un ícono en Argentina y el fútbol mundial, y su legado perdura en los
+                    corazones de los fanáticos.</p>
+                <p class="date">Publicado el 20 de Octubre de 2024</p>
+            </div>
+        </div>
+
+        <!-- Noticia 5 -->
+        <div class="news-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Mbappe_in_2021.jpg" alt="Kylian Mbappé">
+            <div class="content">
+                <h2>Kylian Mbappé, el futuro del fútbol</h2>
+                <p>El joven delantero francés sigue deslumbrando en la Ligue 1 y la Champions League. A sus 25 años, Mbappé está
+                    alcanzando cifras impresionantes y se perfila como el futuro rostro del fútbol mundial, con rumores de
+                    transferencia que podrían llevarlo a los clubes más grandes del mundo.</p>
+                <p class="date">Publicado el 18 de Octubre de 2024</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Noticias del Fútbol. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
